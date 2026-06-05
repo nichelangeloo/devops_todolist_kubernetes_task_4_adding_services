@@ -132,5 +132,5 @@ kubectl describe svc todoapp-nodeport-service -n todoapp
 Verify that both services select pods with the label:
 
 ```yaml
-app: todoapp
+app: todolist
 ```
